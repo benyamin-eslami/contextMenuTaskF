@@ -1,0 +1,32 @@
+.context__menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5rem;
+  background-color: rgb(131, 131, 163);
+}
+.context__menu ul {
+  margin: 0;
+  padding: 0;
+}
+.context__menu ul li {
+  list-style-type: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.context__menu ul li:hover {
+  list-style-type: none;
+  padding: 0.5rem;
+  background-color: rgb(210, 210, 221);
+}
+.context__menu ul li:active {
+  list-style-type: none;
+  padding: 0.5rem;
+  background-color: rgb(108, 116, 75);
+}
+.context__menu ul li a {
+  color: white;
+  text-decoration: none;
+}
